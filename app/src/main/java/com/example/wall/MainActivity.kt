@@ -9,7 +9,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
 import androidx.navigation.compose.rememberNavController
-import com.example.wall.app.navigation.WallAppHost
+import com.example.wall.core.navigation.WallAppHost
 import com.example.wall.ui.theme.WallTheme
 
 class MainActivity : ComponentActivity() {

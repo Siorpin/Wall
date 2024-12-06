@@ -1,4 +1,4 @@
-package com.example.wall.core.presentation.loginScreen
+package com.example.wall.app.presentation.loginScreen
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -10,6 +10,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.unit.sp
 import com.example.wall.R
 
 @Composable
@@ -22,7 +23,8 @@ fun LoginScreen(modifier: Modifier = Modifier) {
             .background(MaterialTheme.colorScheme.secondary)
     ) {
         Text(
-            stringResource(R.string.app_name)
+            stringResource(R.string.login_string),
+            fontSize = 40.sp
         )
     }
 }
